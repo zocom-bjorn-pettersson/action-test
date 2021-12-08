@@ -19,5 +19,14 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-    
+
+    <!-- In order to have the "mvn test" command run the tests -->
+    <build>
+      <plugins>
+          <plugin>
+              <artifactId>maven-surefire-plugin</artifactId>
+              <version>2.22.0</version>
+          </plugin>
+      </plugins>
+    </build>
 </project>
