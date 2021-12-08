@@ -1,6 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
-class CaesarCipherExampleTest {
+public class CaesarCipherExampleTest {
 
     @org.junit.jupiter.api.Test
     void caesar() {
